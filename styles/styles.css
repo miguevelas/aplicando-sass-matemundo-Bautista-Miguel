@@ -287,4 +287,7 @@ footer li:hover {
   #fondoObelisco p:hover {
     width: 100%;
   }
+}
+.btn {
+  background-color: rgb(144, 144, 154);
 }/*# sourceMappingURL=styles.css.map */
