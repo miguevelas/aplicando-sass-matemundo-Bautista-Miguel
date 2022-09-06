@@ -47,3 +47,9 @@
                 opacity: 1;
             }
         }
+
+#productos{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+}

@@ -87,6 +87,12 @@ article h3 {
     opacity: 1;
   }
 }
+#productos {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
 #fondoObelisco {
   text-align: center;
   padding-left: 150px;
@@ -164,25 +170,6 @@ header h1 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-}
-
-.cuerpoUno h3 {
-  display: flex;
-  justify-content: center;
-  font-size: 12px;
-}
-
-.cuerpoUno p {
-  display: flex;
-  justify-content: center;
-  font-size: 13px;
-  background-color: rgb(158, 158, 111);
-}
-
-#productos {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
 }
 
 .card {
