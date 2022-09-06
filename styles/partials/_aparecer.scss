@@ -1,0 +1,20 @@
+main{
+    div{
+        section{
+            h3{
+                animation-duration: 10s;
+                animation-name: aparecer;
+                animation-iteration-count: 1;
+            }
+        }
+    }
+}
+
+@keyframes aparecer{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}

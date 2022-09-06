@@ -1,0 +1,49 @@
+.circle{
+    margin-top: 9vh;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    animation-name: cambiarColor;
+    animation-duration: 5s;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes cambiarColor{
+    0%{
+        background-color: rgba(0, 0, 0, 0.807);
+    }
+    15%{
+        background-color: rgba(0, 0, 0, 0.546);
+    }
+    20%{
+        background-color: rgb(96, 150, 132);
+    }
+    50%{
+        transform: scale(1);
+        background-color: rgb(64, 82, 76);
+        transform: translateX(50%);
+    }
+    100%{
+        transform: scale(0.5);
+        transform: translateY(100%);
+        background-color: rgba(255, 255, 255, 0.227);
+        
+    }
+        }
+
+        article{
+            h3{
+                animation-name: desde;
+                animation-duration: 20s;
+            }
+        }
+        
+        @keyframes desde{
+            0%{
+                opacity: 0;
+            }
+            100%{
+                opacity: 1;
+            }
+        }
