@@ -288,6 +288,19 @@ footer li:hover {
     width: 100%;
   }
 }
+.btnOtros, .btn {
+  padding: 5px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+}
+
 .btn {
-  background-color: rgb(144, 144, 154);
+  background-color: rgb(166, 166, 166);
+  color: rgb(239, 0, 0);
+}
+
+.btnOtros {
+  background-color: rgb(166, 166, 166);
+  color: rgb(239, 0, 0);
 }/*# sourceMappingURL=styles.css.map */
