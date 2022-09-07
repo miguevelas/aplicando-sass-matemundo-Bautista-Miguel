@@ -1,0 +1,7 @@
+@mixin botonRedes ($bgColorRedes, $colorTextRedes, $borderRadiusRedes){
+    background-color: $bgColorRedes;
+    color: $colorTextRedes;
+    font-size: 15px;
+    border-radius: $borderRadiusRedes;
+    
+}
