@@ -1,11 +1,6 @@
 .btn{
     @extend %botonBase;
-    background-color: rgb(166, 166, 166);
-    color: $colorBotones;
-}
-.btnOtros{
-    @extend %botonBase;
-    background-color: rgb(166, 166, 166);
+    background-color: rgb(219, 207, 207);
     color: $colorBotones;
 }
 

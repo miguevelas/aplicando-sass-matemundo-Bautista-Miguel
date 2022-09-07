@@ -1,4 +1,25 @@
 @charset "UTF-8";
+.botonMixinF {
+  background-color: rgb(0, 0, 255);
+  border-radius: 15px;
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+}
+
+.botonMixinI {
+  background-color: rgb(182, 30, 106);
+  border-radius: 15px;
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+}
+
+.botonMixinW {
+  background-color: rgb(0, 149, 0);
+  border-radius: 15px;
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+}
+
 h3 {
   color: rgb(0, 0, 0);
 }
@@ -172,6 +193,11 @@ header h1 {
   justify-content: center;
 }
 
+.mateMundo {
+  color: rgb(255, 255, 255);
+  background-color: rgb(170, 170, 170);
+}
+
 .card {
   width: 200px;
   height: 300px;
@@ -288,7 +314,7 @@ footer li:hover {
     width: 100%;
   }
 }
-.btnOtros, .btn {
+.btn {
   padding: 5px;
   font-size: 16px;
   border: none;
@@ -296,11 +322,6 @@ footer li:hover {
 }
 
 .btn {
-  background-color: rgb(166, 166, 166);
-  color: rgb(239, 0, 0);
-}
-
-.btnOtros {
-  background-color: rgb(166, 166, 166);
-  color: rgb(239, 0, 0);
+  background-color: rgb(219, 207, 207);
+  color: rgb(0, 0, 0);
 }/*# sourceMappingURL=styles.css.map */

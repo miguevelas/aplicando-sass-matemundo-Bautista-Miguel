@@ -1,3 +1,9 @@
 .botonMixinF{
-    @include botonRedes($bgColorRedes:rgb(0, 0, 249));
+    @include botonRed ($bgColor:rgb(0, 0, 255));
+}
+.botonMixinI{
+    @include botonRed ($bgColor:rgb(182, 30, 106));
+}
+.botonMixinW{
+    @include botonRed ($bgColor: rgb(0, 149, 0));
 }
