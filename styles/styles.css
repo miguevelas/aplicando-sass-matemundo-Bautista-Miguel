@@ -342,4 +342,30 @@ footer li:hover {
 #productos .parrafoHistoria {
   text-align: center;
   font-size: 25px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.btn a {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+
+.btn .pyme {
+  color: rgb(47, 47, 47);
+}
+
+.btn .company {
+  color: rgb(47, 47, 47);
+}
+
+.btn .freelance {
+  color: rgb(47, 47, 47);
 }/*# sourceMappingURL=styles.css.map */
