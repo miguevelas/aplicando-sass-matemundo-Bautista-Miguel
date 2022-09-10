@@ -1,33 +1,43 @@
-.circle{
-    margin-top: 9vh;
-    width: 200px;
-    height: 200px;
-    background-color: rgb(0, 0, 0);
-    border-radius: 50%;
-    animation-name: cambiarColor;
-    animation-duration: 5s;
-    animation-direction: alternate-reverse;
-}
+
+
+.circleImg{
+        margin-left: auto;
+        margin-right: auto;    
+        margin-top: 9vh;
+        width: 200px;
+        height: 200px;
+        background-image: url(../../img/IMG_2559.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 50%;
+        animation-name: cambiarColor;
+        animation-duration: 5s;
+        animation-direction: alternate-reverse;
+    }
+
 
 @keyframes cambiarColor{
     0%{
-        background-color: rgba(0, 0, 0, 0.807);
+        opacity: 100%;
     }
     15%{
-        background-color: rgba(0, 0, 0, 0.546);
+        opacity: 80%;
     }
     20%{
-        background-color: rgb(96, 150, 132);
+        opacity: 70%;
     }
     50%{
         transform: scale(1);
-        background-color: rgb(64, 82, 76);
+        opacity: 30%;
         transform: translateX(50%);
     }
+    80%{
+        opacity: 20%;
+    }
     100%{
-        transform: scale(0.5);
+        transform: scale(0.9);
         transform: translateY(100%);
-        background-color: rgba(255, 255, 255, 0.227);
+        opacity: 0%;
         
     }
         }
