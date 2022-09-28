@@ -3,21 +3,21 @@
     #fondoObelisco h2{
         border-radius: 15px;
         margin-bottom: 5px;
-        width: 70%;
+        width: 95%;
         transition: width 1.5s;
     }   
     
     #fondoObelisco p{
         border-radius: 15px;
         background-image: linear-gradient(rgb(255, 255, 255), rgb(245, 235, 235));
-        width: 70%;
-        height: 70%;
+        width: 95%;
+        height: 95%;
         transition:width 1.5s;
     }
     #fondoObelisco h2:hover{
-        width: 100%;
+        width: 93%;
     }
     #fondoObelisco p:hover{
-        width:100%;
+        width:94%;
     }
 }
